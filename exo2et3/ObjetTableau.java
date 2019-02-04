@@ -101,13 +101,11 @@ public class ObjetTableau {
     }
     
     public int premier() {
-        int min = t[0];
-        return min;
+        return t[0];
     }
     
     public int dernier() {
-        int max = t[n-1];
-        return max;
+        return t[t.length-1];
     }
     
     public void inverse() {
